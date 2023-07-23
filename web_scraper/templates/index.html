@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Web Scraper</h1>
+        <button id="scrape_button" onclick="start_scrape()">Start Scraping</button>
+        <div id="data_display"></div>
+    </div>
+</body>
+</html>
