@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#scrape_button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#data_display {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+#data_display pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
